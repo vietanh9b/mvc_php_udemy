@@ -18,7 +18,7 @@ class User{
 
     public function __get($property)
     {
-//        property_exists checks whether an object or class has a certain property or method
+//        property_exists checks whether an object or class has a certain property
 //        return bool
     if(property_exists($this,$property)){
         return $this->$property;
